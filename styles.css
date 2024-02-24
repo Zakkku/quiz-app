@@ -1,0 +1,26 @@
+/* styles.css */
+
+body {
+  font-family: 'Roboto Slab', serif;
+  /* Specify the font family */
+
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px;
+  cursor: pointer;
+}
+
+#question2,
+#question3,
+#finished {
+  display: none;
+}
