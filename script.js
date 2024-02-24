@@ -1,4 +1,5 @@
 counter = 1;
+
 function myFunction() {
   if (counter === 1) {
     document.getElementById('question1').style.display = 'none';
@@ -8,10 +9,14 @@ function myFunction() {
     document.getElementById('question2').style.display = 'none';
     document.getElementById('question3').style.display = 'block';
     counter++;
-  } else {
+  } else if (counter === 3) {
     document.getElementById('question3').style.display = 'none';
     document.getElementById('finished').style.display = 'block';
     counter++;
+  } else {
+    document.getElementById('finished').style.display = 'none';
+    document.getElementById('question1').style.display = 'block';
+    counter = 1;
   }
 
 
